@@ -138,3 +138,15 @@ $toggleHeight: 40px;
   }
 
 }
+.btn-floating i {
+    font-size: 1.625rem;
+    line-height: 61.1px;
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+
+.page-footer {
+    background: #1d1d1de7 url(./img/footer.svg) repeat;
+}
