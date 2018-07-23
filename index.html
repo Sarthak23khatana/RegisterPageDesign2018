@@ -62,7 +62,7 @@
                 </div>
                 <!--choose Branch-->
                 <div class="md-form">
-                  <div class="row">
+                  <div class="row p-1">
                     <div class="col-4 p-1">
                        <select class="form-control hoverable grey-text" data-val="true" data-val-required="*" id="Branch" name="branch" onchange="validateBranch()" >
                          <option value="1" disabled selected>Branch</option>
@@ -98,8 +98,14 @@
                    </div>
                  </div>
                 </div>
+            <div class="col-lg-12">
+              <!-- Material checked -->
 
-
+            <div class="toggle toggle--knob form-check">
+        			<input type="checkbox" class="form-check-input" id="toggle--knob" id="materialChecked2" id="IsHosteler" class="toggle--checkbox" name="hosteler" data-val="true" data-val-required="this field is required" type="checkbox">
+        			<label class="toggle--btn" for="IsHosteler"><span class="toggle--feature" data-label-on="on"  data-label-off="off"></span>Hosteler</label>
+        		</div>
+            </div>
                 <!--button-->
                 <div class="text-center mt-4">
                    <button class="btn btn-outline-info" type="submit">Submit<i class="fa fa-paper-plane-o ml-2"></i></button>
